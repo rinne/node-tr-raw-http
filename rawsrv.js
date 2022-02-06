@@ -80,11 +80,11 @@ var RawSrv = function(host, port, requestCb, opts) {
 	{
 		let h;
 		if (this.opts.key && this.opts.cert) {
-			console.log('https');
+			//console.log('https');
 			this.server = https.createServer({ key: this.opts.key, cert: this.opts.cert }, reqCb);
 			h = https;
 		} else {
-			console.log('http');
+			//console.log('http');
 			this.server = http.createServer(reqCb);
 		}
 	}

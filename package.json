@@ -1,6 +1,6 @@
 {
 	"name": "tr-raw-http",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "HTTP server and client wrapper for raw requests",
 	"main": "index.js",
 	"scripts": {
